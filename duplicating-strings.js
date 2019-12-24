@@ -59,10 +59,10 @@ console.log(array1.fill(5, 1));
 console.log(array1.fill(6));
 // expected output: [6, 6, 6, 6]
 
-Note:
-To create new array you can use `new Array()` syntax which is different from Array.from()
+// Note:
+// To create new array you can use `new Array()` syntax which is different from Array.from()
 
-The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.
+// The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.
 
 console.log(Array.from('foo'));
 // expected output: Array ["f", "o", "o"]
